@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+    <title> Regression </title>
+</head>
+
+<body>
+    <h1>Predicting the values </h1>
+    <h3>Enter the values</h3>
+    <form action="/predict" method="post">
+        <input type="text" name="R_D Spend" placeholder="R_D Spend" />
+        <input type="text" name="Administration" placeholder="Administration" />
+        <input type="text" name="Marketing Spend" placeholder="Marketing spend" />   
+        <input type="text" name="State" placeholder="State" />   
+    
+        <button type="submit" class="btn">Submit</button>
+    </form>
+    <br>
+    <br> {{prediction_text}}
+</body>
+
